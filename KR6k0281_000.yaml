@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6k0281/g/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 梵網經古跡記科表
+  edition:
+    short: g
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G104/G104n2266.xml
+    old_id: G104n2266
+hash: sha256:c6aadf4e7686c8c42c7500d38d26ab9b03f8789d1f2740ddfaaf42a7a28d7335

@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR6k0281/v1
+canonical_location: https://kanripo.org/bkk/KR6k0281/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 梵網經古跡記科表
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G104/G104n2266.xml
+    old_id: G104n2266
+  edition:
+    short: bkk
+editions:
+- short: 佛教
+  label: 佛教
+  source_xml_id: wit.orig
+- short: G
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0281_000.yaml, hash: 'sha256:c6aadf4e7686c8c42c7500d38d26ab9b03f8789d1f2740ddfaaf42a7a28d7335'}
+  - {seq: 1, filename: KR6k0281_001.yaml, hash: 'sha256:a6d952d4b4c13e7d717f5090db1b169730517018afa63dba631e872939fdf302'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6k0281_001.markers.yaml, hash: 'sha256:edac7f4eb5958bbde310a05a45bbefccf1fc3f7da0f39526ccf318991e2b04d1'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0281_G_001-juan-start
+    span:
+    - body
+    - 0
+    - 9306
+  label: 梵網經古迹記科表
+  type: juan
+  level: 1
+hash: sha256:a782871789d25bcffa7cfc914212c36db2aa6d412ae89ebf57e0062565fcb94f
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

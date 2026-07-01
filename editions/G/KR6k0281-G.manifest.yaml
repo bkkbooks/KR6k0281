@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6k0281/G/v1
+canonical_location: https://kanripo.org/bkk/KR6k0281/G/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 梵網經古跡記科表
+  identifiers:
+    krp: KR6k0281
+    cbeta: G104n2266
+    cbeta_old_id: G104n2266
+    authorityid: CA0008659
+    json_key: G2266
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/G/G104/G104n2266.xml
+    old_id: G104n2266
+  edition:
+    short: G
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0281_000-G.yaml, hash: 'sha256:c6aadf4e7686c8c42c7500d38d26ab9b03f8789d1f2740ddfaaf42a7a28d7335'}
+  - {seq: 1, filename: KR6k0281_001-G.yaml, hash: 'sha256:a036de041248ea0508848e8fd2fe881c710766a45de3914dc32510b2c15693eb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0281_000-G.markers.yaml, hash: 'sha256:f3dafd0fffef55e9069edf207b7dc17c075dac4c692726e6b399b93f20ecfec1'}
+  - {seq: 1, role: markers, filename: assets/KR6k0281_001-G.markers.yaml, hash: 'sha256:b06fb9126daff35b49caf5d43685dd27e8e122fc34fd1df2d675d9e199e4a143'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0281_G_001-juan-start
+    span:
+    - body
+    - 0
+    - 9306
+  label: 梵網經古迹記科表
+  type: juan
+  level: 1
+hash: sha256:9a4b7b8cb4a195b9a0317554a251065a902efc53cf553df4c0abaa0f0d7947fd
