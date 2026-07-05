@@ -19,9 +19,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0281_000.yaml, hash: 'sha256:c6aadf4e7686c8c42c7500d38d26ab9b03f8789d1f2740ddfaaf42a7a28d7335'}
-  - {seq: 1, filename: KR6k0281_001.yaml, hash: 'sha256:a6d952d4b4c13e7d717f5090db1b169730517018afa63dba631e872939fdf302'}
+  - {seq: 1, filename: KR6k0281_001.yaml, hash: 'sha256:a036de041248ea0508848e8fd2fe881c710766a45de3914dc32510b2c15693eb'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6k0281_001.markers.yaml, hash: 'sha256:edac7f4eb5958bbde310a05a45bbefccf1fc3f7da0f39526ccf318991e2b04d1'}
+  - {seq: 0, role: markers, filename: assets/KR6k0281_000.markers.yaml, hash: 'sha256:ac3e4eb71684c96bb092c4bf5737191bc1df4a4bd1d9a83a219f83715ddf5efb'}
+  - {seq: 1, role: markers, filename: assets/KR6k0281_001.markers.yaml, hash: 'sha256:52eec77c954ea6187935c952e5ac74425f5caf8a5867a449bd10ce779aad2759'}
 table_of_contents:
 - ref:
     seq: 1
@@ -33,7 +34,4 @@ table_of_contents:
   label: 梵網經古迹記科表
   type: juan
   level: 1
-hash: sha256:a782871789d25bcffa7cfc914212c36db2aa6d412ae89ebf57e0062565fcb94f
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:e1d7bf61d46b1fb7c79718a37b6fc2645e45fe373f16820c25c2ee65c954dc21
