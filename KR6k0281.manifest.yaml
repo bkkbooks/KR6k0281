@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6k0281/v1
 canonical_location: https://kanripo.org/bkk/KR6k0281/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 梵網經古跡記科表
   source:
@@ -19,10 +19,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0281_000.yaml, hash: 'sha256:c6aadf4e7686c8c42c7500d38d26ab9b03f8789d1f2740ddfaaf42a7a28d7335'}
-  - {seq: 1, filename: KR6k0281_001.yaml, hash: 'sha256:a036de041248ea0508848e8fd2fe881c710766a45de3914dc32510b2c15693eb'}
+  - {seq: 1, filename: KR6k0281_001.yaml, hash: 'sha256:12ee41d368d06b4bc7c5f358870c4cafd9e9537477be680055aa8982e68b3354'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6k0281_000.markers.yaml, hash: 'sha256:ac3e4eb71684c96bb092c4bf5737191bc1df4a4bd1d9a83a219f83715ddf5efb'}
-  - {seq: 1, role: markers, filename: assets/KR6k0281_001.markers.yaml, hash: 'sha256:52eec77c954ea6187935c952e5ac74425f5caf8a5867a449bd10ce779aad2759'}
+  - {seq: 1, role: markers, filename: assets/KR6k0281_001.markers.yaml, hash: 'sha256:037e8988b337ae628a3c126f6d83f30420d196a4a28d1bb2cd6dbb5e2c9808cf'}
 table_of_contents:
 - ref:
     seq: 1
@@ -34,4 +34,7 @@ table_of_contents:
   label: 梵網經古迹記科表
   type: juan
   level: 1
-hash: sha256:e1d7bf61d46b1fb7c79718a37b6fc2645e45fe373f16820c25c2ee65c954dc21
+hash: sha256:d00444c82d7934ae975b32e81c0dc00bf2d92cd94a8aa1b7664928aa86bcef0b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
